@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contoh hasil</title>
+</head>
+<body>
+    <script>
+        alert("Halo ini adalah pesan dari tampilan alert");
+    </script>
+    <script>
+        console.log("Halo ini adalah pesan dari tampilan consol");
+    </script>
+    <script>
+        document.write("Halo ini adalah pesan dari tampilan document");
+    </script>
+    <div id="target"></div>
+    <script>
+        document.getElementById("target").innerHTML = "teks ditampilkan di elemen dengan id target";
+    </script>
+    <script>
+        var nama = prompt("Masukan Nama :");
+        alert("Halo, " + nama + "!");
+    </script>
+    <p id="hasil"></p>
+    <script>
+        document.getElementById("hasil").innerHTML = "Hasil perhitungan: 10 + 5 =";
+    </script> 
+</body>
+</html>
